@@ -19,3 +19,4 @@ public class Usuari {
         return nickname+"#"+String.format("%04d", id);
     }
 }
+
