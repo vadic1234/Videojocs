@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-//Comentari branca3 Gerard
+//Comentari brancaGerard
 public class Videojoc {
     private String nom;
     private String genere;
