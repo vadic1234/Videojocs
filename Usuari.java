@@ -1,10 +1,6 @@
 import java.time.LocalDate;
 
-<<<<<<< HEAD
-public class Usuari {git pull
-=======
 public class Usuari {
->>>>>>> c32fb41b3f5d802e9fb66bdd48c1e2c45902ba3e
     private final int id; //Comentari Fabri
     private static int ultimId = 0;
 
