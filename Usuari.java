@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
-public class Usuari {
-    private final int id;
+public class Usuari {git pull
+    private final int id; //Comentari Fabri
     private static int ultimId = 0;
 
     private String nickname;
