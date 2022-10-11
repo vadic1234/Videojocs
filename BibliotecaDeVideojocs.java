@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class BibliotecaDeVideojocs {
-    //COMENTARI LLUC
+    //COMENTARI LLUC__
     private Set<Videojoc> videojocs;
 
     public BibliotecaDeVideojocs() {
