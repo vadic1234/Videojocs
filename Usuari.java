@@ -1,10 +1,9 @@
 import java.time.LocalDate;
 
-
-
 public class Usuari {
 
     private final int id; //Comentari Fabri2
+    private final int id;
     private static int ultimId = 0;
 
     private String nickname;
