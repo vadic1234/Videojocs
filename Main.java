@@ -3,7 +3,7 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args) {
         BibliotecaDeVideojocs biblioteca = new BibliotecaDeVideojocs();
-//Comentari Vàdic
+//Vàdic
         Usuari joan = new Usuari("Joan");
         Videojoc videojoc1 = biblioteca.buscar(joan, "Return to Monkey Island");
         videojoc1.mostrarDades();

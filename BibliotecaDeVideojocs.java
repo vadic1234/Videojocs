@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class BibliotecaDeVideojocs {
     private Set<Videojoc> videojocs;
-
+//Gerard
     public BibliotecaDeVideojocs() {
         videojocs = new HashSet<>();
         crearVideojocsInicials();
