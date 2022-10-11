@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public class Usuari {
     private final int id;
     private static int ultimId = 0;
-
+//Fabri
     private String nickname;
     private String nom;
     private String cognoms;
