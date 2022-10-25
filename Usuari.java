@@ -1,9 +1,12 @@
 import java.time.LocalDate;
 
+
 public class Usuari {
     private final int id;
     private static int ultimId = 0;
-//Fabri
+
+
+
     private String nickname;
     private String nom;
     private String cognoms;
@@ -15,8 +18,16 @@ public class Usuari {
         this.id = ultimId;
     }
 
+    public String getNickname() {
+        return nickname;
+    }
+
     public String getIdentificador() {
         return nickname+"#"+String.format("%04d", id);
     }
-}
 
+    public void afegirComentari(Videojoc videojoc, String textDelComentari) {
+        Comentari comentari = new Comentari(this, textDelComentari);
+        videojoc.afegirComentari(comentari);
+    }
+}
