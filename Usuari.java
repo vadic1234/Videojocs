@@ -11,6 +11,14 @@ public class Usuari {
     private String nom;
     private String cognoms;
     private String correu;
+
+    @Override
+    public String toString() {
+        return "Usuari{" +
+                "dataNaixement=" + dataNaixement +
+                '}';
+    }
+
     private LocalDate dataNaixement;
     public Usuari(String nickname) {
         this.nickname = nickname;
