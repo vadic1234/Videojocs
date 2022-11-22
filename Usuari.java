@@ -31,11 +31,10 @@ public class Usuari {
     }
 
     public String getIdentificador() {
-<<<<<<< HEAD
+
         return nickname+ HASTAG +String.format("%04d", id);
-=======
-        return nickname +"#"+String.format("%04d", id);
->>>>>>> d888cddcc8a03afffd550a1f3d09e03e970ff5d9
+
+
     }
 
     public void afegirComentari(Videojoc videojoc, String textDelComentari) {
