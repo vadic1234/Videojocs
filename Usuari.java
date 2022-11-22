@@ -2,6 +2,7 @@ import java.time.LocalDate;
 
 
 public class Usuari {
+    public static final String HASTAG = "#";
     private final int id;
     private static int ultimId = 0;
 
@@ -23,7 +24,7 @@ public class Usuari {
     }
 
     public String getIdentificador() {
-        return nickname+"#"+String.format("%04d", id);
+        return nickname+ HASTAG +String.format("%04d", id);
     }
 
     public void afegirComentari(Videojoc videojoc, String textDelComentari) {
