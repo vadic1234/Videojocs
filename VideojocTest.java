@@ -1,24 +1,6 @@
 import org.junit.jupiter.api.Test;
 
 
-import  org.junit.jupiter.api.BeforeEach;
-
-class VideojocTest {
-
-    static Videojoc test1;
-    final static String NOM_VIDEOJOC = "FIFA23";
-
-    @BeforeEach
-    void initGame() {
-        test1 = new Videojoc(NOM_VIDEOJOC);
-    }
-
-
-
-    @Test
-    void getNom() {
-        Videojoc test1 = new Videojoc(NOM_VIDEOJOC);
-        assert(test1.getNom() == NOM_VIDEOJOC);
 
 class VideojocTestt {
 
@@ -222,4 +204,4 @@ class VideojocTestt {
     void getComentaris() {
 
     }
-}}}
+}
