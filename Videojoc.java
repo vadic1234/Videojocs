@@ -31,7 +31,7 @@ public class Videojoc {
     }
 
     public void setNom(String nom) {
-        this.genere = nom;
+        this.nom = nom;
     }
 
     public String getGenere() {
@@ -39,7 +39,7 @@ public class Videojoc {
     }
 
     public void setGenere(String genere) {
-        this.ambientacio = genere;
+        this.genere = genere;
     }
 
     public int getNumeroJugadors() {

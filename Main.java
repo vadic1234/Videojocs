@@ -2,6 +2,7 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
+
         BibliotecaDeVideojocs biblioteca = new BibliotecaDeVideojocs();
 
         Usuari joan = new Usuari("Joan");
