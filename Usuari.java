@@ -4,14 +4,20 @@ import java.time.LocalDate;
 public class Usuari {
     public static final String HASTAG = "#";
     private final int id;
+
     private static int ultimId = 0;
-
-
-
     private String nickname;
     private String nom;
     private String cognoms;
     private String correu;
+
+    @Override
+    public String toString() {
+        return "Usuari{" +
+                "dataNaixement=" + dataNaixement +
+                '}';
+    }
+
     private LocalDate dataNaixement;
     public Usuari(String nickname) {
         this.nickname = nickname;
@@ -19,12 +25,17 @@ public class Usuari {
         this.id = ultimId;
     }
 
+
     public String getNickname() {
         return nickname;
     }
 
     public String getIdentificador() {
+<<<<<<< HEAD
         return nickname+ HASTAG +String.format("%04d", id);
+=======
+        return nickname +"#"+String.format("%04d", id);
+>>>>>>> d888cddcc8a03afffd550a1f3d09e03e970ff5d9
     }
 
     public void afegirComentari(Videojoc videojoc, String textDelComentari) {
